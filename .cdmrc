@@ -1,0 +1,2 @@
+tabs: ["src/main.ts", "src/counter.ts"]
+terminals: ["yarn install && yarn dev"]
