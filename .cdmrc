@@ -1,2 +1,3 @@
-tabs: ["src/main.ts", "src/counter.ts"]
-terminals: ["yarn install && yarn dev"]
+tabs: ["index.ts"]
+terminal-one: "yarn && yarn dev"
+run-button: "yarn dev"

@@ -1,15 +1,15 @@
 {
-	"name": "vite-typescript",
-	"private": true,
-	"version": "0.0.0",
-	"type": "module",
+	"name": "codedamn-typescript",
+	"version": "1.0.0",
+	"description": "Typescript starter template by codedamn",
+	"main": "index.ts",
 	"scripts": {
-		"dev": "vite --host --port 1337",
-		"build": "tsc && vite build",
-		"preview": "vite preview"
+		"build": "yarn tsc",
+		"start": "node build/index.js",
+		"dev": "yarn build && yarn start"
 	},
+	"license": "MIT",
 	"devDependencies": {
-		"typescript": "^4.9.3",
-		"vite": "^4.2.0"
+		"typescript": "^5.2.2"
 	}
 }
